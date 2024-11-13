@@ -1,5 +1,20 @@
 ### Cấu trúc thư mục
 
+<!-- ôn tập lại obj và class trong php -->
+<!-- object: là đối tượng chứa thông tin thuộc tính và phương thức -->
+<!-- Ví dụ sinh viên A: -->
+<!-- Thuộc tính là: họ tên, năm sinh, quê quán, số điện thoại -->
+<!-- Phương thức (function): lời chào của A, dựa vào năm sinh tính tuổi của A -->
+<!-- Class: là khuôn mẫu để tạo ra đối tượng -->
+
+<!-- sinh viên a:
+tên: nguyễn thị thảo uyên
+năm sinh: 2005
+... -->
+
+
+
+
 1. commons // File dùng chung cả dự án
 2. uploads // Folder lưu trữ file upload
 
