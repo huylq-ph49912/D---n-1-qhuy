@@ -1,0 +1,50 @@
+.dp-flex {
+    display: flex;
+}
+.sp-between {
+    justify-content: space-between;
+}
+.Payment-success {
+    margin: 50px 0px;
+}
+.icon-Payment-success>i {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    background: #43cb41;
+    border-radius: 50px;
+    display: flex;
+    color: #e5e5e5;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.text-Payment-success {
+    text-align: center;
+}
+.order-information {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid rgb(149, 149, 149);
+    padding: 10px 10px;
+}
+.bottom-product {
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom-product>a>p {
+    background-color: #f1f1f1;
+    color: rgb(84, 84, 84);
+    display: block;
+    width: 250px;
+    padding: 10px 10px;
+    margin: auto;
+    border: 1px solid rgb(90, 146, 6);
+    transition: 0.25s;
+}
+.bottom-product>a>p:hover {
+    background-color: #828282;
+    color: #ffffff;
+    border: 1px solid rgb(149, 149, 149);
+}

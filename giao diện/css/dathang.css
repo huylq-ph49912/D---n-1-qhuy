@@ -1,0 +1,71 @@
+.dp-flex {
+    display: flex;
+}
+.sp-between {
+    justify-content: space-between;
+}
+.order {
+    margin: 20px 0px 50px 0px;
+}
+.box-left, .box-right {
+    margin-top: 30px;
+}
+.title-order-log-in, .form-select, .other-signifier, .Note {
+    margin-bottom: 20px;
+}
+.title-order-log-in>.title-order>h5 {
+    color: rgb(49, 49, 49);
+}
+.log-in-order>a>.icon-log-in>i {
+   margin-right: 10px;
+   color: rgb(84, 84, 84);
+}
+.log-in-order>a>.title-log-in-order {
+    color: rgb(117, 124, 192);
+}
+.title-your-order {
+    margin-bottom: 25px;
+    color: rgb(53, 53, 53);
+}
+.your-order {
+    margin-bottom: 20px;
+}
+.discount-code {
+   margin: 10px 0px;
+}
+.discount-code-order {
+    width: 280px;
+}
+.discount-code>button {
+    background: rgb(53, 53, 53);
+    color: aliceblue;
+}
+.bill-please, .total-money {
+    margin-bottom: 10px;
+}
+.pirce-total-money {
+    color: rgb(255, 89, 0);
+}
+.option>.come-back>a>p {
+    background-color: rgb(84, 84, 84);
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.25s;
+}
+.option>.come-back>a>p:hover {
+    background-color: rgb(230, 230, 230);
+    color: rgb(49, 49, 49);
+}
+.option>.Purchase>a>p {
+    background-color: rgb(251, 76, 76);
+    color: aliceblue;
+    padding: 5px 50px;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.25s;
+}
+.option>.Purchase>a>p:hover {
+    background-color: rgb(182, 36, 28);
+}

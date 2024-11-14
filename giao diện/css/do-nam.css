@@ -1,0 +1,168 @@
+/*danh sách sản phẩm*/
+.dp-flex {
+  display: flex;
+}
+.sp-around {
+  justify-content: space-around;
+}
+
+.title-list-of-products  h3 {
+  text-align: center;
+  color: rgb(212, 65, 65);
+  text-transform: capitalize;
+  margin: 20px 0px;
+}
+.title-sidebar p {
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.product-size,
+.product-price,
+.product-color {
+  border: 1px solid rgb(181, 181, 181);
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.title-product-size {
+  text-transform: capitalize;
+  border-bottom: 1px solid rgb(163, 163, 163);
+  margin-bottom: 10px;
+}
+.product-filter {
+  margin-bottom: 15px;
+}
+.product-filter > .title-product-filter {
+  margin-right: 50px;
+}
+.filter {
+  margin-right: 40px;
+}
+.filter-mobi {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.filter-mobi .dropdown .dropdown-menu {
+  padding: 10px 15px;
+}
+
+.card>.img-card {
+  overflow: hidden; 
+}
+.card>.img-card>a>img {
+  overflow: hidden;
+  display: block;
+  transition: 0.5s
+}
+.card>.img-card>a>img:hover {
+  transform: scale(1.1);
+  cursor: pointer; 
+  
+}
+.information-card {
+  padding: 10px 10px;
+}
+.information-card .title-card {
+  margin-bottom: 5px;
+}
+.information-card .title-card a {
+  color: rgb(62, 62, 62);
+  transition: 0.25s;
+}
+.information-card .title-card a:hover {
+  color: rgb(238, 100, 32);
+}
+.top-price {
+  margin: 0px;
+  font-size: 18px;
+  color: red;
+}
+.bottom-piece {
+  margin: 0px;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration-line: line-through;
+}
+.buy-button button {
+  padding: 10px 5px;
+  background-color: rgb(74, 74, 74);
+  border: 1px solid rgb(74, 74, 74);
+}
+
+.price-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.price-card .bottom-piece {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+.add-to-cart-and-purchase {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.add-to-cart-and-purchase .add-to-cart,
+.add-to-cart-and-purchase .bottom-purchase {
+  margin-top: 10px;
+}
+.add-to-cart-and-purchase .add-to-cart a p {
+  background-color: rgb(238, 169, 79);
+  color: rgb(51, 51, 51);
+  border-radius: 5px;
+  padding: 8px 10px;
+  transition: 0.5s;
+}
+.add-to-cart-and-purchase .add-to-cart a p:hover {
+  background-color: rgb(72, 72, 72);
+  color: rgb(232, 232, 232);
+}
+.add-to-cart-and-purchase .bottom-purchase a p {
+  background-color: rgb(255, 59, 59);
+  color: aliceblue;
+  border-radius: 5px;
+  padding: 8px 10px;
+  transition: 0.5s;
+}
+.add-to-cart-and-purchase .bottom-purchase a p:hover {
+  background-color: rgb(188, 15, 15);
+}
+.card {
+  margin-bottom: 24px;
+}
+
+.see-more {
+  text-align: center;
+}
+.btn-primary {
+  background-color: rgb(73, 73, 73);
+  border: none;
+  transition: 0.5s;
+}
+.btn-primary:hover {
+  background-color: rgb(171, 171, 171);
+  color: rgb(28, 28, 28);
+}
+.list-of-products {
+  margin-bottom: 30px;
+}
+
+  @media only screen and (max-width: 780px) {
+    .price-card .bottom-piece{
+      margin: 0px;
+    }
+     .add-to-cart-and-purchase, .product-size, .product-price, .product-color, .product-filter {
+      display: none;
+     }
+    }
+  @media only screen and (min-width:780px) {
+    .filter-mobi {
+      display:none;
+    }
+  } 
+

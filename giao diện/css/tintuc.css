@@ -1,0 +1,48 @@
+.title-adidas-produc {
+    text-align: center;
+    color: rgb(212, 65, 65);
+    text-transform: capitalize;
+    margin: 30px 0px;
+}
+p {
+    line-height: 1.8;
+}
+h3{
+    margin: 20px 0px;
+}
+h5 {
+    margin: 10px 0px;
+}
+.hot-produc-adidas> .title-hot-produc-adidas >p {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 94, 255);
+}
+.img-my-shopping-cart>a>img {
+    margin: 0px;
+}
+.title-my-shopping-cart>a>p {
+    color: rgb(61, 61, 61);
+    line-height: normal;
+}
+.price-my-shopping-cart {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.price-my-shopping-cart .main-price-my-shopping-cart p {
+    color: red;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.price-my-shopping-cart .extra-price-my-shopping-cart p { 
+    text-decoration: line-through;
+}
+.product-hot-adidas {
+    margin-bottom: 20px;
+}
+.image-news-adidas {
+    width: 70%;
+    margin: auto;
+    padding: 10px 0px;
+}
