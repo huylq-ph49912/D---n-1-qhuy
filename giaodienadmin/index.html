@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2><i class="fas fa-cog"></i> Admin Panel</h2>
+      </div>
+      <ul class="menu">
+        <li><a href="#" id="dashboard"><i class="fas fa-home"></i> Dashboard</a></li>
+        <li><a href="#" id="products"><i class="fas fa-boxes"></i> Sản phẩm</a></li>
+        <li><a href="#" id="orders"><i class="fas fa-shopping-cart"></i> Đơn hàng</a></li>
+        <li><a href="#" id="comments"><i class="fas fa-comments"></i> Bình luận</a></li>
+        <li><a href="#" id="categories"><i class="fas fa-th-list"></i> Danh mục</a></li>
+        <li><a href="#" id="logout"><i class="fas fa-sign-out-alt"></i> Đăng xuất</a></li>
+      </ul>
+    </aside>
+
+    <!-- Main content -->
+    <div class="main-content">
+      <header class="main-header">
+        <div class="search-bar">
+          <input type="text" placeholder="Tìm kiếm...">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="user-profile">
+          <img src="https://via.placeholder.com/40" alt="Avatar">
+          <span>Admin</span>
+        </div>
+      </header>
+
+      <section class="dashboard" id="main-section">
+        <h1>Dashboard</h1>
+        <div class="stats-cards">
+          <div class="card">
+            <h2>Người dùng</h2>
+            <p><i class="fas fa-user"></i> 1,245</p>
+          </div>
+          <div class="card">
+            <h2>Doanh thu</h2>
+            <p><i class="fas fa-dollar-sign"></i> $12,500</p>
+          </div>
+          <div class="card">
+            <h2>Đơn hàng</h2>
+            <p><i class="fas fa-box"></i> 320</p>
+          </div>
+          <div class="card">
+            <h2>Lượt xem</h2>
+            <p><i class="fas fa-eye"></i> 8,500</p>
+          </div>
+        </div>
+        
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
