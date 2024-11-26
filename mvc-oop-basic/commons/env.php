@@ -5,6 +5,8 @@
 
 define('BASE_URL'       , 'http://localhost/mvc-oop-basic/'); //Đường dẫn vào đến phần client
 
+define('BASE_URL_ADMIN'       , 'http://localhost/mvc-oop-basic/admin/');//Đường dẫn vào phần admin
+
 define('DB_HOST'    , 'localhost');
 define('DB_PORT'    , 3306);
 define('DB_USERNAME', 'root');
